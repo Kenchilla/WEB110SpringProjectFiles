@@ -1,0 +1,24 @@
+/*Alexa Summers, 09/30/2024*/
+
+/*selector {declaration: value;}*/
+/*selector: HTML element, class, or ID*/
+/*declaration: the style I want to change*/
+
+body {background-color: red;
+	  color: white;
+	  background-color: blue;
+	  background-color: rgb(255, 100, 255);
+	  background-color: hsl(100, 50%, 10%);
+	  background-color: #FF22FF;
+	  background-color: #F2F;
+	 }
+	 
+h1, h2 {color: red;
+		background-color: white;
+	   }
+	   
+p {color: blue;}
+
+ol li {color: green;}
+
+ol {background-color: white;}

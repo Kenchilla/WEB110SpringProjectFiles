@@ -1,0 +1,41 @@
+/*Alexa Summers, 2/19/2024 */
+
+body { background-color: red; 
+	   color: white;
+	   background-color: blue;
+	   background-color: rgb(255, 100, 255);
+	   background-color: hsl(0, 100%, 50%);
+	   background-color: #FFFFFF;
+	   background-color: #FFF;
+	   background-color: #fff;
+	   background-color: white;
+	 }
+	 
+h1 {
+	color: red;
+	color: rgb(255, 255, 0);
+	color: hsl(0, 100%, 50%);
+	color: #0F0;
+	color: #FFFF00;
+   }
+
+p {
+	color: blue;
+	color: #0F0;
+	color: red;
+	color: #555;
+  }
+  
+h2 {
+	color: blue;
+}
+
+footer p {color: red;}
+
+#idstyle {color: red;}
+
+.groupstyles {color: orange;}
+
+ol {color: red;}
+
+span { color: orange;}
