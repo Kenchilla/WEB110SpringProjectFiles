@@ -109,12 +109,12 @@ nav ul li {display: block;
 }
  } 
 
-@media { max-width: 480px;
+@media  (max-width: 480px){
        
 .wrapper {padding: 10px;
-
+	 }
 .hero img {width: 200px;
-	  
+	  }
 
 .features {grid-template-columns: 1fr;}
 
@@ -128,7 +128,7 @@ nav ul li {margin-top: 5px;
 }
 
 nav a {font-size: 16px;}
-
+	  }
 
 
 
