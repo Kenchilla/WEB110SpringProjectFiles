@@ -81,7 +81,7 @@ nav a:visited {color: lightgray;}
 
 }
  
- @media { max-width: 768px;
+ @media (max-width: 768px){
  
  .hero {flex-direction: column;
 	text-align: center;
@@ -107,7 +107,7 @@ nav ul li {display: block;
 	margin-left: 0px;
 	margin-right: 0px;
 }
- 
+ } 
 
 @media { max-width: 480px;
        
