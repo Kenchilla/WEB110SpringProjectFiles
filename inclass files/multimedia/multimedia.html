@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--Alexa Summers, 11/15/2023-->
+<html lang="en">
+    <head>
+        <title>Multimedia</title>
+        <meta charset="utf-8">
+        <style>
+            nav { background-color: #00005D;
+                  letter-spacing: 0.1em;
+                  font-weight: bold;
+                  text-align: right;
+                  padding-right: 2em;
+            }
+            nav ul{ list-style-type: none;
+                    margin: 0;
+            }
+            nav li { padding: 0.5em;
+                     display: inline-block;
+            }
+            nav a { text-decoration: none;
+                    display: block;
+            }
+            nav a:link { color: #fff;}
+            nav a:visited { color: #eaeaea;}
+            nav a:hover { color: #D3DBEB;}
+            nav ul ul { position: absolute;
+                        background-color: #5564A0;
+                        padding: 0;
+                        text-align: right;
+                        display: none;
+            }
+            nav ul ul li { border: 1px solid #00005D;
+                           display: block;
+                           width: 8em;
+                           padding-left: 1em;
+                           margin-left: 0;
+            }
+            nav li:hover ul { display: block; }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="link1.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></a>
+                    <ul>
+                        <li><a href="websites.html">Websites</a></li>
+                        <li><a href="wireframes.html">Wireframes</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+		
+		<br><br>
+		
+		<h1> The Audio Element </h1>
+		<br>
+			<audio controls>
+				<source src="electro.wav" type="audio/wav">
+			</audio>
+			
+		<br>
+			<audio controls autoplay muted>
+				<source src="electro.wav" type="audio/wav">
+			</audio>
+			
+			<p> Audio courtesy of: <a href="https://freesound.org/people/Electrobuz/sounds/152947/">Electrobuz</a></p>
+			
+		<br><br>
+			
+		<h1>The iframe element</h1><br>
+
+		<iframe src="https://www.jccc.edu" title="JCCC!"></iframe> <br><br>
+
+
+		<iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+		
+    </body>
+</html>
